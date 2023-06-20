@@ -13,10 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
     
-  webviewx: 
-    git:
-      url: git@github.com:mrkahfi/webviewx.git
-      ref: main
+  webview_flutter: 4.2.2
   dart_style: ^2.3.1
 
 dev_dependencies:
