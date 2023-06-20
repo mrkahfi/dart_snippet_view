@@ -3,6 +3,8 @@ description: A Flutter package to display code in a snippet view
 version: 0.0.1
 homepage: https://github.com/t0uh33d/dart_snippet_view
 
+publish_to: none
+
 environment:
   sdk: ">=3.0.0 <4.0.0"
   flutter: ">=1.17.0"
@@ -10,7 +12,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  webviewx: ^0.2.2
+    
+  webviewx: 
+    git:
+      url: git@github.com:mrkahfi/webviewx.git
+      ref: main
   dart_style: ^2.3.1
 
 dev_dependencies:
